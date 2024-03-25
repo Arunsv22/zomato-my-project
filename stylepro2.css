@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.7) url(https://wallpapercave.com/wp/wp1929442.jpg) center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container p{
+    color: white;
+    margin-left: -800px;
+    cursor: pointer;
+}
+.container img{
+    width: 15px;
+    height: 15px;
+    margin-left:65px ;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+    /* transition: 3.5s; */
+}
+
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset,
+    0 3px 50px orangered inset,0 3px 50px orangered inset;
+}
+
+
+.content{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 30%;
+}
+
+.content h1 img{
+    font-size: 50px;
+    width: 300px;
+    margin-left: 155px;
+}
+
+.content p{
+    text-align: center;
+    margin-top: 17px;
+    font-size: xx-large;
+}
+
+.search{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 40%;
+}
+
+.search input{
+    outline: none;
+   border-radius: 20px;
+    padding: 12px 40px;
+    size: 1em;
+    width: 100%;
+}
+
+.submit{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 46%;
+}
+
+.submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: x-large;
+    /* background-color: orangered; */
+}
+.submit a:hover{
+    box-shadow: 0 3px 50px orangered inset
+}
